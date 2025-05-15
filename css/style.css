@@ -1,0 +1,213 @@
+:root {
+  --cor-primaria: #204C73;
+  --cor-secundaria: #2192BF;
+  --cor-texto: white;
+  --cor-houver: #1EC6D9;
+  --fonte-primaria: "Roboto", sans-serif;
+  --fonte-secundaria: "Ubuntu", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte-secundaria);
+    background-color: white;
+}
+
+header{
+    position: relative;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 1em;
+    font-family: var(--fonte-primaria);
+}
+
+.img-perfil{
+    width: 20%;
+    border-radius: 20%;
+}
+
+footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 1em;
+    font-family: var(--fonte-primaria);
+}
+
+.conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100% !important;
+    box-shadow: 0px 2px 4px black !important;
+}
+
+main.principal a{
+    text-decoration: none !important;
+    color: var(--cor-texto) !important;
+}
+
+main.principal a:hover .conteudo{
+    background-color: var(--cor-houver) !important;
+}
+
+.principal{
+    text-align: center;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+
+.img-icone{
+    width: 50% !important;
+}
+
+.txt_icone{
+    font-size: 220% !important;
+}
+
+.meu-nome{
+    margin-top: 1em !important;
+}
+
+/*Telas Pequenas*/
+@media (min-width: 200px) and (max-width:520px){
+    .img-icone{
+        width: 400% !important;
+    }
+
+    .txt_icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+    }
+}
+
+/*Telas Pequenas 2*/
+@media (min-width: 521px) and (max-width:538px){
+    .img-icone{
+        width: 300% !important;
+    }
+
+    .txt_icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+    }
+}
+
+/*Telas Pequenas 3*/
+@media (min-width: 539px) and (max-width:742px){
+    .img-icone{
+        width: 250% !important;
+    }
+
+    .txt_icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+    }
+}
+
+/*Telas medias pequenas*/
+@media (min-width: 745px) and (max-width:991px){
+    .img-icone{
+        width: 150% !important;
+    }
+
+    .txt_icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+    }
+}
+
+/*Telas médias grandes*/
+@media (min-width: 992px) and (max-width:1300px){
+    .img-icone{
+        width: 100% !important;
+    }
+
+    .txt_icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+    background-color: var(--cor-secundaria) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+    }
+}
